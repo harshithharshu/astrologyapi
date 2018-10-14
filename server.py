@@ -11,9 +11,9 @@ CORS(app)
 def index_route () :
     return jsonify({
 		'author' : 'Harshith',
-		'base_url' : 'https://astroapiproject.herokuapp.com/',
+		'base_url' : 'https://contmgmtapi.herokuapp.com/',
 	    	'project_name' : 'Horoscope API',
-		'project_url' : 'https://astroapiproject.herokuapp.com/'
+		'project_url' : 'https:contmgmtapi.herokuapp.com/'
 	})
 
 
