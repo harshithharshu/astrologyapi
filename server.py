@@ -1,8 +1,8 @@
 from flask import Flask, jsonify
 from pyhoroscope import Horoscope
-
+from flask_cors import CORS
 app = Flask (__name__)
-
+CORS(app)
 ############################################
 # Index 
 ############################################
